@@ -5,7 +5,11 @@ info:
 
 http:
   method: GET
-  url: URL
+  url: URL?usr1=1
+  params:
+    - name: usr1
+      value: "1"
+      type: query
   auth: inherit
 
 settings:
